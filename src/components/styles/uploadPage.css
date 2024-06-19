@@ -154,7 +154,7 @@ textarea {
 @media (min-width:600px) and (max-width:1200px) {
 
   .center{
-  background-color: #ff3636;
+  /* background-color: #ff3636; */
     display: flex;
     position: relative;
     justify-content: center;

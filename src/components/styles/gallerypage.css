@@ -92,12 +92,13 @@
 @media (max-width:600px)   {
 
     .photo-thumbnail{
-         background-color:rgb(210, 244, 86);
+         /* background-color:rgb(210, 244, 86); */
           width: 80vw;
           display: flex;
           flex-direction: row;
           justify-content: space-around;
-          height: 40vh;
+          height: 35vh;
+          align-items: center;
     }
     .gallery-dec{
         height: 30vh;
