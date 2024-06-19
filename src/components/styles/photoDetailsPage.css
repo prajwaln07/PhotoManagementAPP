@@ -1,0 +1,24 @@
+.photo-details-page{
+    /* background-color: #ff7474; */
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo-details img{
+    margin-top: 50px;
+    height: 70vh;
+}
+.btn{
+    width: 18vw;
+}
+.btn:hover{
+    box-shadow: black 1px 1px 2px;
+    transition: all 0.2s ease;
+}

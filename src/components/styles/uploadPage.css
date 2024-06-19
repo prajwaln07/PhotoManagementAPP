@@ -1,0 +1,170 @@
+.upload-page{
+    background: #f3f3f3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.form-para{
+    font-size: 2vw;
+}
+
+
+
+  .upload-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+
+  }
+  .center{
+/* background-color: #ea6b6b; */
+margin-left:9vw;
+
+  }
+  #inputFile{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-box input,
+textarea,button {
+  display: block;
+
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.form-box textarea {
+  height: 15vh;
+}
+.file-upload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fa8888; */
+    flex-direction: column;
+}
+
+/* copied */
+
+fieldset {
+    border: none;
+}
+
+input {
+    display: block;
+    width: 100%;
+    /* margin-bottom: 15px; */
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #070303;
+    border-radius: 3px;
+    font-size: 12px;
+}
+#inputFile::-webkit-file-upload-button:hover{
+  cursor: pointer;
+      box-shadow: black 2px 2px 3px;
+    transition: all 0.2s ease;
+}
+#inputFile::-webkit-file-upload-button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+padding: 2vh;
+border-radius: 18px;
+color: #555;
+font-weight: bold;
+font-size: 19px;
+}
+
+
+
+input[type="text"]{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+input[type="file"]{
+color: transparent;
+}
+label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #f5741e;
+    width: 40%;
+    font-size: 16px;
+}
+textarea {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    resize: none;  
+    min-height: 150px;
+    max-height: 150px;
+}
+
+/* making resposive  */
+@media (max-width:600px) {
+
+.center{
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: 14vw;
+}
+
+}
+
+
+@media (min-width:600px) and (max-width:1200px) {
+
+  .center{
+  background-color: #ff3636;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left: 6vw;
+  }
+  .gallery-img{
+    height: 25vh;
+    width: 25vh;
+  }
+  
+  }
+
+  
